@@ -44,9 +44,10 @@ If managing local Python environments isn't working, or you just don't want to, 
 You can also directly using `.ipynb` file in your browser with Google Colab. Here's a general workflow:
 1. Open [Google Colab](https://colab.research.google.com/) in your web browser
 2. Choose File → Open notebook → GitHub → (enter this GitHub repo's address) → choose the assignment template you want to work on
-3. In Colab, complete the assignment
-4. Choose File → Download → Download .ipynb
-5. Upload the .ipynb you downloaded to the relevant Canvas assignment and submit
+3. Choose File → Save a copy in Drive (or Save a copy in GitHub) 
+4. Complete the assignment in that copy on Colab
+5. Choose File → Download → Download .ipynb
+7. Upload the .ipynb you downloaded to the relevant Canvas assignment and submit
 
 Something you need to know about Google Colab:
 1. Google Colab cannot directly read your local files. When you are working on an assignment using `colab` kernel in VS Code, you need to upload the file to Google Colab first.
